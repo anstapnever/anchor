@@ -1,0 +1,10 @@
+out/*
+!out/track/
+out/track/*
+!out/track/chain.npy
+!out/track/grip.npz
+!out/track/ground.npz
+!out/track/mech_track.npz
+__pycache__/
+*.pyc
+*.blend1
