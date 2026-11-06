@@ -1,7 +1,7 @@
 // ANCHOR score: the orchestra. String sections, spiccato, legato solo lines (flute, horn, brass, cello, violin),
 // a wordless choir-like pad, piano, glockenspiel, timpani, taiko, gran cassa, tam-tam, built on the nap synth core
 // (offline, 48 kHz, deterministic). Every voice writes into a named bus through A.writer; the mixer is A.render.
-import * as A from '../../../v2/nap/audio/synth/index.mjs';
+import * as A from './synth/index.mjs';
 
 export { A };
 const { SR, TAU, writer, at, noise, rand, svf, saw, clamp, panLR, drive } = A;
